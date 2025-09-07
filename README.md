@@ -30,20 +30,17 @@ CoinTracker is a Python-based cryptocurrency portfolio tracker that lets users s
 ## File & Folder Structure
 
 crypto_tracker/
-│
 ├── crypto_tracker/
-│ ├── init.py
-│ ├── main.py # Entry point for the application
-│ ├── user.py # User signup, login, and authentication
-│ ├── wallet.py # Wallet-related actions: view, add, remove, balance
-│ ├── coin.py # Coin data fetching and API integration
-│ └── utils.py # Utility functions (e.g., generate transaction ID, file checks)
-│
-├── users.csv # Stores user data: username, email, password hash, PIN hash
-├── wallets.csv # Stores wallet transactions: coin, amount, price, tx_id
-├── requirements.txt # Required Python packages
+│   ├── __init__.py
+│   ├── main.py        # Entry point for the application
+│   ├── user.py        # User signup, login, and authentication
+│   ├── wallet.py      # Wallet-related actions: view, add, remove, balance
+│   ├── coin.py        # Coin data fetching and API integration
+│   └── utils.py       # Utility functions (generate transaction ID, file checks)
+├── users.csv          # Stores user data: username, email, password hash, PIN hash
+├── wallets.csv        # Stores wallet transactions: coin, amount, price, tx_id
+├── requirements.txt   # Required Python packages
 └── README.md
-
 
 ---
 
