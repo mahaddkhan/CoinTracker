@@ -1,7 +1,6 @@
 # CoinTracker: Cryptocurrency Portfolio Tracker
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
 ![GitHub Repo](https://img.shields.io/badge/GitHub-CoinTracker-orange)
 
 ---
