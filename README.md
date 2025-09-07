@@ -28,7 +28,7 @@ CoinTracker is a Python-based cryptocurrency portfolio tracker that lets users s
 ---
 
 ## File & Folder Structure
-
+```
 crypto_tracker/
 ├── crypto_tracker/
 │   ├── __init__.py
@@ -41,7 +41,7 @@ crypto_tracker/
 ├── wallets.csv        # Stores wallet transactions: coin, amount, price, tx_id
 ├── requirements.txt   # Required Python packages
 └── README.md
-
+```
 ---
 
 ## How to Use
